@@ -5,7 +5,7 @@ const city = "New York";
 function App() {
   $(document).ready(
     $.ajax({
-      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}`,
+      url: "https://api.openweathermap.org/data/2.5/weather?q=New%20York&appid=361ebb12802e23acedfab01998e0a8d0",
       contentType: "application/json",
       dataType: 'json',
       success: function(result){
